@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/img/viajes.svg" type="image/x-icon">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-sm navbar-light fixed-top justify-content-start px-4">
+                <div class="container fs-5">
+                    <img src="./assets/img/viajes.svg" alt="logo" class="navbar__logo" />
+                    <a class="nav-link text-white" href="#inicio">&nbsp;Viajes Chile</a>
+                    <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item activo">
+                                <a class="nav-link text-white" aria-current="page" href="#inicio">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#quienes-somos">Quienes somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#destacados">Destacados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="bg-dark">
+
+        <!-- carousel  -->
+        <section id="inicio">
+            <div class="container">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- quienes somos  -->
+        <section id="quienes-somos">
+            <div class="container p-4">
+                <h2 class="text-center">¿Quiénes somos?</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-6 d-none d-md-block">
+                        <img src="./assets/img/quienes-somos.jpg" class="quienes-somos__img" />
+                    </div>
+                    <div class="col-sm-6 d-block">
+                        <p class="fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, doloribus
+                            sapiente pariatur
+                            id blanditiis totam. Ad, assumenda pariatur. Voluptate quam aspernatur eaque. Eaque fugiat
+                            officia quibusdam esse corrupti assumenda quisquam.</p>
+                        <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eligendi
+                            voluptatum
+                            praesentium esse, voluptates magni eos corporis sapiente voluptas voluptatibus deserunt
+                            dolorem ipsam! Quas ex unde expedita amet. Fugiat, delectus?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- destacados -->
+        <section id="destacados">
+            <div class="container p-4">
+                <h2 class="text-white text-center">Destacados</h2>
+                <hr class="text-white">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col d-block">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/card1.jpg" class="img-fluid rounded-start h-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Región de los lagos</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                            labore molestias consequuntur quam recusandae eos qui sint ut.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <small class="text-body-secondary">
+                                                    <i class="fa-solid fa-plane-up"></i>
+                                                    Vuelos desde:
+                                                </small>
+                                            </div>
+                                            <div class="col-md-6 fs-5">
+                                                <small class="text-body-secondary ">
+                                                    $159.990
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-block">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/card2.jpg" class="img-fluid rounded-start h-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Región de los lagos</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                            labore molestias consequuntur quam recusandae eos qui sint ut.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <small class="text-body-secondary">
+                                                    <i class="fa-solid fa-plane-up"></i>
+                                                    Vuelos desde:
+                                                </small>
+                                            </div>
+                                            <div class="col-md-6 fs-5">
+                                                <small class="text-body-secondary ">
+                                                    $189.990
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-block">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/card3.jpg" class="img-fluid rounded-start h-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Región de los lagos</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                            labore molestias consequuntur quam recusandae eos qui sint ut.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <small class="text-body-secondary">
+                                                    <i class="fa-solid fa-plane-up"></i>
+                                                    Vuelos desde:
+                                                </small>
+                                            </div>
+                                            <div class="col-md-6 fs-5">
+                                                <small class="text-body-secondary ">
+                                                    $289.990
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-block">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="./assets/img/card4.jpg" class="img-fluid rounded-start h-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Región de los lagos</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                            labore molestias consequuntur quam recusandae eos qui sint ut.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <small class="text-body-secondary">
+                                                    <i class="fa-solid fa-plane-up"></i>
+                                                    Vuelos desde:
+                                                </small>
+                                            </div>
+                                            <div class="col-md-6 fs-5">
+                                                <small class="text-body-secondary ">
+                                                    $259.990
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- testimonios -->
+        <section id="testimonios">
+            <div class="container p-4">
+                <h2 class="text-center">Testimonios</h2>
+                <hr>
+                <div class="row text-center">
+                    <div class="col-md-4 d-block">
+                        <div class="card mb-3 text-bg-dark" style="width: 18rem;">
+                            <div class="card-body">
+                                <p class="card-text fst-italic">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur voluptatem
+                                    nihil saepe.
+                                </p>
+                                <div class="container contenedor__imagen ">
+                                    <img src="./assets/img/testimonio1.jpg" class="card-img-bottom img-fluid" alt="...">
+                                </div>
+                                <p class="card-text p-3">Mariela</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-block">
+                        <div class="card mb-3 text-bg-dark" style="width: 18rem;">
+                            <div class="card-body">
+                                <p class="card-text fst-italic">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur voluptatem
+                                    nihil saepe.
+                                </p>
+                                <div class="container contenedor__imagen">
+                                    <img src="./assets/img/testimonio2.jpg" class="card-img-bottom img-fluid" alt="...">
+                                </div>
+                                <p class="card-text p-3">Christian</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-block">
+                        <div class="card mb-3 text-bg-dark" style="width: 18rem;">
+                            <div class="card-body">
+                                <p class="card-text fst-italic">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur voluptatem
+                                    nihil saepe.
+                                </p>
+                                <div class="container contenedor__imagen">
+                                    <img src="./assets/img/testimonio3.jpg" class="card-img-bottom img-fluid" alt="...">
+                                </div>
+                                <p class="card-text p-3">Fernanda</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contacto -->
+        <section id="contacto">
+            <div class="container p-3">
+                <h2 class="text-center">Contacto</h2>
+                <hr>
+                <div class="row">
+                    <!-- input -->
+                    <div class="col-md-6 p-4 d-block">
+                        <!-- alert -->
+                        <form>
+                            <div id="liveAlertPlaceholder">
+
+                            </div>
+
+                            <div class="mb-3">
+                                <div class="row">
+                                    <div class="col-md-6 col-6">
+                                        <label for="exampleInputName1" class="form-label">Nombre
+                                            <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip"
+                                                data-bs-placement="right" data-bs-title="ingresa tu nombre completo">
+                                            </i>
+                                        </label>
+                                        <input type="name" class="form-control" id="exampleInputName1"
+                                            aria-describedby="nameHelp">
+                                    </div>
+                                    <div class="col-md-6 col-6">
+                                        <label for="exampleInputEmail1" class="form-label">Email
+                                            <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip"
+                                                data-bs-placement="right" data-bs-title="ejemplo c@gmail.com">
+                                            </i>
+                                        </label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="floatingTextarea2">Mensaje
+                                    <i class="fa-solid fa-circle-info" data-bs-toggle="tooltip"
+                                        data-bs-placement="right" data-bs-title="indique detalle de solicitud">
+                                    </i>
+                                </label>
+                                <textarea class="form-control" placeholder="" id="floatingTextarea2"
+                                    style="height: 100px"></textarea>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1"></label>
+                                <!-- link trigger modal -->
+                                <a data-bs-toggle="modal" data-bs-target="#exampleModal" href="">
+                                    Acepto los términos y condiciones
+                                </a>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog text-primary">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                                                    Términos y condiciones
+                                                </h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
+                                                    sapiente, maxime porro deserunt ullam molestiae non, reprehenderit,
+                                                    ipsam voluptatem nostrum error odit? Pariatur enim placeat iusto
+                                                    architecto numquam porro maxime?
+                                                </p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sunt a
+                                                    molestias et sit quidem optio commodi ad iste. Ipsum eligendi
+                                                    distinctio, neque reprehenderit tempora omnis explicabo saepe.
+                                                    Libero,
+                                                    nostrum.
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="button" class="btn btn-light" id="liveAlertBtn">Enviar</button>
+
+                        </form>
+                    </div>
+                    <div class="col-md-6 p-4 d-block">
+                        <p><i class="fa-solid fa-phone px-2"></i>+56999887766</p>
+                        <p><i class="fa-solid fa-envelope px-2"></i>contacto@viajeschile.com</p>
+                        <p><i class="fa-brands fa-linkedin px-2"></i>ViajesChile</p>
+                        <p><i class="fa-brands fa-instagram px-2"></i>viajes_chile</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark">
+        <div class="container text-end">
+            <p class="text-white">Diseñado por Claudia Marchant 2024 ©</p>
+        </div>
+    </footer>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c946bd7a1c.js" crossorigin="anonymous"></script>
+
+    <!-- js -->
+    <script type="module" src="./assets/js/index.js"></script>
+</body>
+
+</html>
